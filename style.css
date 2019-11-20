@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    background-image: url("uploads/background.jpg");
+}
+
+h3, p, label {
+    /* text-shadow: h-shadow v-shadow blur-radius */
+    /* Try to make it more readable with dark background */
+    text-shadow: 1px 1px 3px white;
+}
+
+.main-heading h1{
+    background-color: orange;
+    margin: 0;  /* Disable automatic margin!!!!! */
+    font-size: 50pt;
+    padding: 10px;
+}
+
+.main-heading a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-heading a:hover{
+    color: blue;
+}
+
+.main-heading a:active{
+    color: white;
+}
+
+.grid {
+    margin: 10px;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    background-color: lightgray;
+    color: black;
+    border: 1px black solid;
+}
+
+.grid .box:hover{
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    height: 20px;
+}
+
+.navbar ul {
+    /* Need this or else get stupid line above the navbar (automatic styling!!!!!) */
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    /* You must make the a and its container same width if you want highlight!!!! */
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar a:hover{
+    background: blue;
+}
+
+.navbar a:active{
+    background: orange;
+    padding-right: 10px;
+}
+
+.navbar .active{
+    background: blue;
+}
+
+#reset-btn{
+    margin: 10px; /* Put it inline with the grid */;
+}
+
+.mail-input-field {
+    padding-bottom: 10px;
+}
+
