@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>My Project 2019</title>
+    <title>My Web App Project 2019</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
